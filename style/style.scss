@@ -399,6 +399,7 @@ Responsiv  here
 
     .footer {
         flex-wrap: wrap;
+        margin-left: 0;
     }
 
     .footer__title {
@@ -409,6 +410,10 @@ Responsiv  here
         margin-top: 50px;
     }
 
+    .num {
+        position: relative;
+        left: 170px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -433,10 +438,16 @@ Responsiv  here
         padding: 3px 20px;
     }
 
+    .main__btn {
+        position: relative;
+        left: 140px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
     .container {
+        width: 560px;
         padding: 0 15px;
     }
 
@@ -473,22 +484,23 @@ Responsiv  here
     }
 
     .popap__feedback input {
-        margin: 2;
-        margin-top: 8px;
+        margin-top: 30px;
+        width: -webkit-fill-available;
+        border: 1px solid black;
     }
 
-
-    .popap__feedback label {
-        margin-bottom: 15px;
-    }
 }
 
 @media screen and (max-width: 375px) {
+
+
+
     .popap__main {
         padding: 2px 20px;
     }
 
     .popap__feedback input {
         margin: 2px;
+        width: -webkit-fill-available;
     }
 }
