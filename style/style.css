@@ -341,6 +341,10 @@ Responsiv  here
   .terms__content {
     margin: 0 auto;
   }
+
+  .terms__content {
+    margin: 10px auto;
+  }
 }
 @media screen and (max-width: 991px) {
   .container {
@@ -362,10 +366,6 @@ Responsiv  here
 
   .footer__image {
     margin-top: 50px;
-  }
-
-  .terms__content {
-    margin: 10px auto;
   }
 }
 @media screen and (max-width: 767px) {

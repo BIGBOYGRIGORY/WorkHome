@@ -350,6 +350,8 @@ Responsiv  here
     .container {
         width: 1140px;
     }
+
+
 }
 
 @media screen and (max-width: 1199px) {
@@ -374,11 +376,13 @@ Responsiv  here
         margin: 0 auto;
     }
 
-
-
     .terms__item,
     .terms__content {
         margin: 0 auto;
+    }
+
+    .terms__content {
+        margin: 10px auto;
     }
 
 }
@@ -405,9 +409,6 @@ Responsiv  here
         margin-top: 50px;
     }
 
-    .terms__content {
-        margin: 10px auto;
-    }
 }
 
 @media screen and (max-width: 767px) {
