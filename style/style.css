@@ -363,6 +363,10 @@ Responsiv  here
   .footer__image {
     margin-top: 50px;
   }
+
+  .terms__content {
+    margin: 10px auto;
+  }
 }
 @media screen and (max-width: 767px) {
   .container {
@@ -407,5 +411,9 @@ Responsiv  here
 
   .footer__image {
     width: 100%;
+  }
+
+  .terms__item {
+    text-align: center;
   }
 }

@@ -374,10 +374,13 @@ Responsiv  here
         margin: 0 auto;
     }
 
+
+
     .terms__item,
     .terms__content {
         margin: 0 auto;
     }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -400,6 +403,10 @@ Responsiv  here
 
     .footer__image {
         margin-top: 50px;
+    }
+
+    .terms__content {
+        margin: 10px auto;
     }
 }
 
@@ -448,6 +455,10 @@ Responsiv  here
 
     .footer__image {
         width: 100%;
+    }
+
+    .terms__item {
+        text-align: center;
     }
 
 }
