@@ -394,7 +394,7 @@ Responsiv  here
 
     .main__btn {
         position: relative;
-        left: 150px;
+        left: 140px;
     }
 
     .footer {
@@ -456,7 +456,7 @@ Responsiv  here
         display: inline-block;
         font-size: 20px;
         width: 100%;
-        line-height: 20px;
+        line-height: 40px;
     }
 
     .footer__image {
@@ -465,6 +465,7 @@ Responsiv  here
 
     .terms__item {
         text-align: center;
+        margin-bottom: 30px;
     }
 
     .popap__main {
@@ -489,6 +490,5 @@ Responsiv  here
 
     .popap__feedback input {
         margin: 2px;
-
     }
 }
