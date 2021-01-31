@@ -429,6 +429,10 @@ Responsiv  here
         width: 100%;
     }
 
+    .popap__main {
+        padding: 3px 20px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -459,10 +463,32 @@ Responsiv  here
         width: 100%;
     }
 
-
     .terms__item {
         text-align: center;
     }
 
+    .popap__main {
+        padding: 3px 20px;
+    }
 
+    .popap__feedback input {
+        margin: 2;
+        margin-top: 8px;
+    }
+
+
+    .popap__feedback label {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .popap__main {
+        padding: 2px 20px;
+    }
+
+    .popap__feedback input {
+        margin: 2px;
+
+    }
 }

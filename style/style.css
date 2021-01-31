@@ -39,11 +39,9 @@ Header
 .logo {
   display: block;
 }
-
 .logo__icon {
   margin-left: 15px;
 }
-
 .logo__text {
   display: inline-block;
   margin: 0;
@@ -59,33 +57,27 @@ Header
 .menu {
   display: block;
 }
-
 .menu__navigation {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 .menu__icon {
   margin-left: 95px;
 }
-
 .menu__icon:first-child {
   margin: 0;
 }
-
 .menu__icon:last-child {
   margin-right: 25px;
 }
-
 .menu__icon i {
   margin-right: 10px;
   font-size: 24px;
   color: white;
   vertical-align: top;
 }
-
 .menu__list {
   font-family: 'Whitney';
   font-size: 18px;
@@ -96,7 +88,6 @@ Header
   text-transform: capitalize;
   color: #ffffff;
 }
-
 .menu__list:hover {
   cursor: pointer;
 }
@@ -114,12 +105,10 @@ Header
 .main {
   padding: 57px 0 102px;
 }
-
 .main__content {
   width: 527px;
   margin-top: 42px;
 }
-
 .main__title {
   margin: 0;
   font-family: 'Whitney';
@@ -131,7 +120,6 @@ Header
   color: white;
   margin-bottom: 30px;
 }
-
 .main__list {
   margin: 0;
   font-family: 'Whitney';
@@ -144,7 +132,6 @@ Header
   color: white;
   margin-bottom: 60px;
 }
-
 .main__btn {
   padding: 16px 60px;
   background: #f25b24;
@@ -160,11 +147,9 @@ Header
   text-align: center;
   color: white;
 }
-
 .main__icon {
   display: block;
 }
-
 .main__btn:hover {
   cursor: pointer;
 }
@@ -182,7 +167,6 @@ Main Start
 .terms {
   padding: 132px 0 129px;
 }
-
 .terms__content {
   display: flex;
   justify-content: space-between;
@@ -192,7 +176,6 @@ Main Start
   background-color: #F6F5F9;
   margin-top: 30px;
 }
-
 .terms__title {
   font-family: 'Segoe UI';
   font-size: 22px;
@@ -203,7 +186,6 @@ Main Start
   text-align: left;
   margin: 17px 0 22px;
 }
-
 .terms__list {
   font-family: 'Segoe UI';
   font-size: 16px;
@@ -229,7 +211,6 @@ Footer
   padding-left: 69px;
   margin-left: 30px;
 }
-
 .footer__title {
   font-family: 'Whitney';
   font-size: 34px;
@@ -243,7 +224,6 @@ Footer
   width: 557px;
   color: #ffffff;
 }
-
 .footer__icon {
   z-index: 1;
 }
@@ -264,7 +244,6 @@ Popap
   text-align: center;
   vertical-align: sub;
 }
-
 .popap__main {
   position: relative;
   margin: 300px auto;
@@ -274,7 +253,6 @@ Popap
   padding: 84px 70px 55px;
   text-align: center;
 }
-
 .popap__close {
   position: absolute;
   top: 0;
@@ -283,7 +261,6 @@ Popap
   font-size: 42px;
   font-weight: 100;
 }
-
 .popap__title {
   font-family: 'Whitney';
   font-size: 40px;
@@ -295,11 +272,9 @@ Popap
   text-transform: capitalize;
   margin: 0 0 36px;
 }
-
 .popap__feedback {
   margin-top: 18px;
 }
-
 .popap__feedback label {
   float: left;
   font-family: 'Whitney';
@@ -311,7 +286,6 @@ Popap
   text-align: left;
   color: #474351;
 }
-
 .popap__feedback input {
   display: inline-block;
   width: 100%;
@@ -319,7 +293,6 @@ Popap
   margin-top: 10px;
   padding-left: 5px;
 }
-
 .popap__btn-1 {
   padding: 16px 60px;
   background: #F25B24;
@@ -342,7 +315,6 @@ Responsiv  here
     width: 1140px;
   }
 }
-
 @media screen and (max-width: 1199px) {
   .container {
     width: 960px;
@@ -374,7 +346,6 @@ Responsiv  here
     margin: 10px auto;
   }
 }
-
 @media screen and (max-width: 991px) {
   .container {
     width: 720px;
@@ -382,7 +353,7 @@ Responsiv  here
 
   .main__btn {
     position: relative;
-    left: 145px;
+    left: 150px;
   }
 
   .footer {
@@ -397,7 +368,6 @@ Responsiv  here
     margin-top: 50px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .container {
     width: 540px;
@@ -416,11 +386,10 @@ Responsiv  here
     width: 100%;
   }
 
-  .popap__btn {
-    padding: 84px 60px 30px;
+  .popap__main {
+    padding: 3px 20px;
   }
 }
-
 @media screen and (max-width: 575px) {
   .container {
     padding: 0 15px;
@@ -442,7 +411,7 @@ Responsiv  here
     display: inline-block;
     font-size: 20px;
     width: 100%;
-    line-height: 40px;
+    line-height: 20px;
   }
 
   .footer__image {
@@ -451,6 +420,27 @@ Responsiv  here
 
   .terms__item {
     text-align: center;
-    margin-bottom: 30px;
+  }
+
+  .popap__main {
+    padding: 3px 20px;
+  }
+
+  .popap__feedback input {
+    margin: 2;
+    margin-top: 8px;
+  }
+
+  .popap__feedback label {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .popap__main {
+    padding: 2px 20px;
+  }
+
+  .popap__feedback input {
+    margin: 2px;
   }
 }
